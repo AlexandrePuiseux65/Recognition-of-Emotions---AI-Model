@@ -6,4 +6,3 @@ tensorflow
 opencv-python
 kagglehub
 scikit-learn
-tensorflow[and-cuda]
