@@ -61,7 +61,6 @@ Press `ESC` to stop the stream.
 1. Improve detection of minority classes (`angry`, `sad`, `surprise`) via oversampling or stronger data augmentation
 2. Investigate domain shift between training data and live webcam input
 3. Export model to `.keras` format (replacing legacy `.h5`)
-4. Add a confidence threshold to avoid displaying low-confidence predictions
 
 # Acknowledgments
 
