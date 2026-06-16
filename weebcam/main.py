@@ -64,6 +64,10 @@ def FindEmotionWithModel(frame, faces):
     
     
 # --- Main Part --- #
+'''
+Sam Westby — OpenCV-Python-Tutorial (facial detection example)
+https://github.com/samwestby/OpenCV-Python-Tutorial/blob/main/6_facial_detection.py
+'''
 stream = cv2.VideoCapture(1)
 if not stream.isOpened():
     print("No stream :(")
