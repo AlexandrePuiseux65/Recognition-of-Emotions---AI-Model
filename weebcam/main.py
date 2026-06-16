@@ -83,6 +83,7 @@ while True:
     if not ret:
         print("No more stream :(")
         break
+    
 
     frame, faces = DetectFace(frame)
 

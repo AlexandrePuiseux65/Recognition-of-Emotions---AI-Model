@@ -13,7 +13,7 @@ This project is a personal upgrade of an undergraduate group project on emotion 
 
 The model was trained on **84,878 images** from a Kaggle dataset, using a VGG-inspired architecture with BatchNormalization and Dropout for regularization.
 
-## Model
+## Model Details
 
 - **Architecture**: Custom CNN inspired by VGG16 (3 conv blocks + dense layers)
 - **Input**: 48×48 grayscale images
