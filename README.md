@@ -8,7 +8,8 @@ Detects **5 emotions** directly from a webcam stream.
 
 This project is a personal upgrade of an undergraduate group project on emotion recognition. The original had limitations I wanted to address, so I rebuilt it from scratch with two goals:
 
-- Train a CNN model from scratch targeting 55–65% accuracy on a 5-class emotion dataset (Last model had 37% since we didn't have access to a GPU cluster).
+- Train a CNN model from scratch targeting 55–65% accuracy on a 5-class emotion dataset (Last model had around 40%).
+- Corrected the emotions class imbalances.
 - Deploy it live using OpenCV's facial detection pipeline.
 
 The model was trained on **84,878 images** from a Kaggle dataset, using a VGG-inspired architecture with BatchNormalization and Dropout for regularization.
