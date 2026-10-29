@@ -6,7 +6,7 @@ Detects **5 emotions** directly from a webcam stream.
 
 ## Description
 
-This project is a personal upgrade of an undergraduate group project on emotion recognition. The original had limitations I wanted to address, so I rebuilt it from scratch with two goals:
+This project is a personal upgrade of an undergraduate group project on emotion recognition. The original had limitations I wanted to address, so I rebuilt it from scratch with the following goals:
 
 - Train a CNN model from scratch targeting 55–65% accuracy on a 5-class emotion dataset (Last model had around 40%).
 - Corrected the emotions class imbalances.
